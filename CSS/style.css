@@ -81,6 +81,26 @@ body {
     font-size: 12px;
 }
 
+.green-circle {
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background-color: white;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    border: 2px solid green;
+    margin-right: 8px;
+    position: relative;
+    font-size: 14px;
+    color: green;
+
+    
+    .green-circle::before 
+        content: "\2713";
+}
+
+
 
 
 
