@@ -25,7 +25,7 @@ body {
             color: white;
           }
 
-          
+
 .bg_debug{
     background-color:aliceblue;
 }
@@ -34,3 +34,64 @@ body {
     font-weight: 400;
 
 }
+
+.green-circle {
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background-color: white;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    border: 2px solid green;
+    margin-right: 8px;
+    position: relative;
+    font-size: 14px;
+    color: green;
+
+    
+    .green-circle::before 
+        content: "\2713";
+}
+
+
+.green-circle span {
+    display: inline-block;
+    width: 12px;
+    height: 8px;
+    border-bottom: 2px solid green;
+    border-right: 2px solid green;
+    transform: rotate(45deg);
+
+
+}
+.blue-rectangle {
+    display: inline-block;
+    background-color: blue;
+    border-radius: 6px;
+    padding: 4px 8px;
+}
+
+.blue-rectangle-text {
+    color: white;
+    font-size: 12px;
+}
+
+.arrow-down {
+    font-size: 12px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
